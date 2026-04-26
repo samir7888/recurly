@@ -4,7 +4,7 @@ import React from 'react'
 const onboarding = () => {
   return (
     <View>
-      <Text>onboarding</Text>
+      <Text className='font-sans-bold'>onboarding</Text>
     </View>
   )
 }
