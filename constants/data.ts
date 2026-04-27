@@ -1,12 +1,5 @@
 import { icons } from "./icons";
 
-
-interface AppTab {
-    name: string;
-    title: string;
-    icon: ReturnType<typeof icons[keyof typeof icons]>;
-}
-
 export const tabs: AppTab[] = [
     { name: "index", title: "Home", icon: icons.home },
     { name: "Subscriptions", title: "Subscriptions", icon: icons.wallet },

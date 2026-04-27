@@ -9,7 +9,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 const TabLayout = () => {
   const insets = useSafeAreaInsets();
   const tabBar = components.tabBar;
-  const TabIcon = ({ focused, icon }: TabsIconsProps) => {
+  const TabIcon = ({ focused, icon }: TabIconProps) => {
 
     return (
       <View className="tabs-icon">
@@ -17,7 +17,7 @@ const TabLayout = () => {
           <Image source={icon} resizeMode='contain' className='tabs-glyph' />
         </View>
       </View>
-    )
+    ) 
   }
 
   return <Tabs screenOptions={{
